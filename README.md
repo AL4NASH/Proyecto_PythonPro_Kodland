@@ -69,3 +69,40 @@ El usuario responde preguntas relacionadas con sus hábitos de transporte, consu
 Al finalizar, la aplicación calcula una puntuación y muestra recomendaciones personalizadas.
 
 ![Resultado](imagenes/resultado.png)
+
+## Instalación y uso
+
+Para ejecutar este proyecto en un computador se deben seguir los siguientes pasos:
+
+### 1. Descargar el proyecto
+
+Clonar el repositorio desde GitHub:
+
+```bash
+git clone URL-DE-TU-REPOSITORIO
+
+### 2. Entrar a la carpeta del proyecto
+cd Proyecto_PythonPro_Kodland
+### 3. Crear un entorno virtual
+python3 -m venv .venv
+### 4. Activar el entorno virtual
+
+En macOS o Linux:
+
+source .venv/bin/activate
+###5. Instalar las librerías necesarias
+pip install flask flask-sqlalchemy flask-login
+###6. Ejecutar el programa
+python main.py
+###7. Abrir la aplicación
+
+Abrir en el navegador:
+
+http://127.0.0.1:5000
+
+En la primera línea debes reemplazar:
+
+```text
+URL-DE-TU-REPOSITORIO
+
+por la dirección real de tu repositorio de GitHub.
