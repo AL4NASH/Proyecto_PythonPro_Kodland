@@ -36,3 +36,36 @@ La aplicación cuenta con las siguientes funciones:
 - Comparación del resultado actual con el resultado anterior.
 - Indicación de si el usuario mejoró, empeoró o se mantuvo igual.
 
+## Demostración del funcionamiento
+
+A continuación se muestran algunas capturas de pantalla del funcionamiento de la aplicación.
+
+### Página de bienvenida
+
+En esta página el usuario puede elegir entre iniciar sesión o crear una cuenta.
+
+![Página de bienvenida](imagenes/bienvenida.png)
+
+### Registro de usuario
+
+El usuario puede crear una cuenta utilizando su nombre, correo electrónico y contraseña.
+
+![Registro](imagenes/registro.png)
+
+### Inicio de sesión
+
+Los usuarios registrados pueden ingresar a la aplicación con su correo electrónico y contraseña.
+
+![Inicio de sesión](imagenes/login.png)
+
+### Cuestionario
+
+El usuario responde preguntas relacionadas con sus hábitos de transporte, consumo de energía y consumo de agua.
+
+![Cuestionario](imagenes/cuestionario.png)
+
+### Resultado y retroalimentación
+
+Al finalizar, la aplicación calcula una puntuación y muestra recomendaciones personalizadas.
+
+![Resultado](imagenes/resultado.png)
