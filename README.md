@@ -128,3 +128,29 @@ URL-DE-TU-REPOSITORIO
 ```
 
 por la dirección real de tu repositorio de GitHub.
+
+## Comentarios y participación
+
+Los usuarios pueden compartir sus opiniones, sugerencias o reportar errores a través de la sección **Issues** del repositorio en GitHub.
+
+También pueden proponer nuevas ideas para mejorar el proyecto, por ejemplo:
+
+- Agregar nuevas preguntas al cuestionario.
+- Mejorar el sistema de puntuación.
+- Incluir nuevas recomendaciones ambientales.
+- Mejorar el diseño de la aplicación.
+- Agregar gráficos para mostrar la evolución del usuario.
+
+Las sugerencias pueden ayudar a mejorar futuras versiones del proyecto.
+
+## Conclusión
+
+Este proyecto busca crear conciencia sobre cómo algunos hábitos cotidianos pueden influir en nuestro impacto ambiental.
+
+A través de un cuestionario sencillo, la aplicación permite que cada usuario evalúe aspectos relacionados con el transporte, el consumo de energía y el uso del agua, obteniendo una puntuación y recomendaciones para mejorar.
+
+Una de las principales características del proyecto es que los usuarios pueden volver a realizar el cuestionario y comparar sus resultados con mediciones anteriores, lo que permite observar si sus hábitos han mejorado, empeorado o se han mantenido.
+
+Este proyecto también me permitió aplicar conocimientos de Python, Flask, HTML, CSS y bases de datos en una aplicación web funcional.
+
+En el futuro, la aplicación podría ampliarse con nuevas preguntas, cálculos más precisos de huella de carbono, gráficas de evolución y recomendaciones más detalladas.
