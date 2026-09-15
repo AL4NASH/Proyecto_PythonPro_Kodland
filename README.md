@@ -17,3 +17,21 @@ El proyecto será desarrollado en **Visual Studio Code**, utilizando principalme
 - HTML
 - CSS
 - SQLite
+
+## Funciones y características
+
+La aplicación cuenta con las siguientes funciones:
+
+- Registro de usuarios mediante nombre, correo electrónico y contraseña.
+- Inicio de sesión para que cada usuario pueda acceder a su información.
+- Cuestionario sobre hábitos relacionados con la huella de carbono.
+- Evaluación del medio de transporte utilizado.
+- Evaluación de la distancia recorrida diariamente.
+- Evaluación del consumo de energía en el hogar.
+- Evaluación de la duración de las duchas.
+- Cálculo de una puntuación final de 1 a 10.
+- Retroalimentación personalizada según las respuestas del usuario.
+- Recomendaciones sobre transporte, consumo de energía y uso del agua.
+- Almacenamiento de los resultados en una base de datos.
+- Comparación del resultado actual con el resultado anterior.
+- Indicación de si el usuario mejoró, empeoró o se mantuvo igual.
