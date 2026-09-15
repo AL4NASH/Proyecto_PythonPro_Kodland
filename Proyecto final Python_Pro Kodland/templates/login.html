@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar sesión</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="login-page">
+
+    <div class="login-fondo">
+
+        <div class="login-caja">
+
+            <h3>Iniciar sesión</h3>
+
+            {% with mensajes = get_flashed_messages() %}
+                {% if mensajes %}
+                    {% for mensaje in mensajes %}
+                        <p class="mensaje-error">{{ mensaje }}</p>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+
+            <form method="POST">
+
+                <label>Correo electrónico</label>
+                <input type="email" name="email" required>
+
+                <label>Contraseña</label>
+                <input type="password" name="password" required>
+
+                <button type="submit">Iniciar sesión</button>
+
+            </form>
+
+        </div>
+
+        <img class="login-imagen"
+            src="{{ url_for('static', filename='huella_de_carbono.jpg') }}"
+            alt="Imagen de la huella de carbono">
+
+    </div>
+
+</body>
+</html>

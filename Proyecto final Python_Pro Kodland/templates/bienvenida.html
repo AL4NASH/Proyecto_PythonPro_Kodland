@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi huella de carbono</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="bienvenida-page">
+
+    <h1>Mi huella de Carbono</h1>
+
+    <p>Calcula tu impacto sobre el planeta.</p>
+
+    <a href="{{ url_for('login') }}">
+        <button>Iniciar sesión</button>
+    </a>
+
+    <a href="{{ url_for('registro') }}">
+        <button>Registrarme</button>
+    </a>
+
+</body>
+
+</html>

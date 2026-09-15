@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi huella de Carbono</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="cuestionario-page">
+    <h1>Mi huella de Carbono y sus consecuencias en el mundo</h1>
+    <p>Respeponde a las preguntas sobre tu huella de carbono.</p>
+    <div class="contenedor">
+        <form method="POST">
+            <p>¿Qué medio de transporte usas?</p>
+            <label>
+                <input type="radio" name="transporte" value="carro" required>
+                Carro
+            </label>
+            <label>
+                <input type="radio" name="transporte" value="moto">
+                Moto
+            </label>
+            <label>
+                <input type="radio" name="transporte" value="bus">
+                Bus
+            </label>
+            <label>
+                <input type="radio" name="transporte" value="bicicleta">
+                Bicicleta
+            </label>
+            <label>
+                <input type="radio" name="transporte" value="caminando">
+                Caminando
+            </label>
+
+            <p>¿Cuántos kilómetros recorres al día en este medio de transporte?</p>
+            <label>
+                <input type="radio" name="kilometros" value="10" required>
+                Menos de 10km al día
+            </label>
+            <label>
+                <input type="radio" name="kilometros" value="6">
+                Entre 10-40 km al día
+            </label>
+            <label>
+                <input type="radio" name="kilometros" value="4">
+                Entre 40-60 km al día
+            </label>
+            <label>
+                <input type="radio" name="kilometros" value="1">
+                Más de 60 km al día
+            </label>
+
+            <p>¿Cuanta energía consumes en tu hogar?</p>
+            <label>
+                <input type="radio" name="energia" value="10" required>
+                Bajo: menos de 130 kWh/mes
+            </label>
+            <label>
+                <input type="radio" name="energia" value="6">
+                Media: 130-200 kWh/mes
+            </label>
+            <label>
+                <input type="radio" name="energia" value="3">
+                Alta: más de 200 kWh/mes
+            </label>
+
+            <p>¿Cuánto dura tu ducha normalmente?</p>
+            <label>
+                <input type="radio" name="ducha" value="10" required>
+                Menos de 5 minutos
+            </label>
+            <label>
+                <input type="radio" name="ducha" value="5">
+                Entre 5 y 10 minutos
+            </label>
+            <label>
+                <input type="radio" name="ducha" value="1">
+                Más de 10 minutos
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+        {% if promedio is defined %}
+
+            <div class="resultado">
+
+                <h2>Tu resultado: {{ promedio }}/10</h2>
+
+                <p>{{ resultado }}</p>
+
+                <p>{{ consejo_transporte }}</p>
+
+                <p>{{ consejo_energia }}</p>
+
+                <p>{{ comparacion }}</p>
+
+                <p>{{ consejo_agua }}</p>
+
+            </div>
+
+        {% endif %}
+    </div>
+</body>
+</html>
