@@ -35,3 +35,4 @@ La aplicación cuenta con las siguientes funciones:
 - Almacenamiento de los resultados en una base de datos.
 - Comparación del resultado actual con el resultado anterior.
 - Indicación de si el usuario mejoró, empeoró o se mantuvo igual.
+
