@@ -82,27 +82,49 @@ Clonar el repositorio desde GitHub:
 git clone URL-DE-TU-REPOSITORIO
 
 ### 2. Entrar a la carpeta del proyecto
+
+```bash
 cd Proyecto_PythonPro_Kodland
+```
+
 ### 3. Crear un entorno virtual
+
+```bash
 python3 -m venv .venv
+```
+
 ### 4. Activar el entorno virtual
 
 En macOS o Linux:
 
+```bash
 source .venv/bin/activate
-###5. Instalar las librerías necesarias
+```
+
+### 5. Instalar las librerías necesarias
+
+```bash
 pip install flask flask-sqlalchemy flask-login
-###6. Ejecutar el programa
+```
+
+### 6. Ejecutar el programa
+
+```bash
 python main.py
-###7. Abrir la aplicación
+```
+
+### 7. Abrir la aplicación
 
 Abrir en el navegador:
 
+```text
 http://127.0.0.1:5000
+```
 
 En la primera línea debes reemplazar:
 
 ```text
 URL-DE-TU-REPOSITORIO
+```
 
 por la dirección real de tu repositorio de GitHub.
